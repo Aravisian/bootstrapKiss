@@ -20,7 +20,22 @@ h3,
 h1,
 h2,
 h3 {
-   padding: 8px;
+  padding: 8px;
+}
+p,
+.list-group {
+  text-align: center;
+  background-image: linear-gradient(
+    to right,
+    #515151 0%,
+    #212121 2%,
+    #212121 98%,
+    #515151 100%
+  );
+  border-radius: 0px;
+  border: 0px solid #000;
+  color: #fff;
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
 }
 p,
 .list-group {
